@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head> <!-- responsável por meta datos e estilos das páginas -->
-        <title>Unidade 02 - Elemento Head</title>
+        <title>Meta Dados - Tag meta</title>
         <meta charset="utf-8"/>
+        <meta name="author"         content="Lucas Raniére"/>
+        <meta name="generator"      content="vscode"/>
+        <meta name="Keywords"       content="HTML5, Curso Front End, CSS, JavaScript"/>
+        <meta name="description"    content="Página do curso de HMLT5"/>
+
+        <meta http-equiv="refresh"  content="4"/> <!-- página atualiza em 4 segundos -->
+
+        <script>
+            function sorteioNumero(){
+                resultado.innerHTML = Math.random() * 50;
+            }
+
+            window.onload = sorteioNumero;
+        </script>
 
     </head>
 
     <body>
-
+        <p id="resultado"></p>
     </body>
 
 </html>
